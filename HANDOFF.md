@@ -11,6 +11,12 @@ Sibling `framex-v1` is untouched.
 - Plugins / in-app updates / custom addon servers disabled by default (`AppFeaturePolicy` + flavor flags).
 - No BRAVIA install without explicit approval.
 
+## GitHub
+
+- Repo: https://github.com/ajlesaca8/framex-v2  
+- Release APKs: https://github.com/ajlesaca8/framex-v2/releases/tag/v1.0.0  
+- BRAVIA download: `frameX-v2-1.0.0-armeabi-v7a.apk`
+
 ## Package
 
 | Variant | applicationId |
