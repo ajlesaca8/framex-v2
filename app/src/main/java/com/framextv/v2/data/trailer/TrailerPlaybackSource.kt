@@ -1,0 +1,6 @@
+package com.framextv.v2.data.trailer
+
+data class TrailerPlaybackSource(
+    val videoUrl: String,
+    val audioUrl: String? = null
+)

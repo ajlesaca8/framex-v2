@@ -1,0 +1,17 @@
+frameX TV v2
+============
+
+This project is a modified fork of Nuvio TV.
+
+Upstream project:
+  Nuvio TV — https://github.com/NuvioMedia/NuvioTV
+  Licensed under the GNU General Public License v3.0 (see LICENSE).
+
+Copyright notices from the upstream Nuvio TV sources are retained in the
+corresponding source files. Modifications for frameX branding and frameX
+catalogue/stream data integration are likewise released under GPLv3.
+
+Trademark note:
+  "Nuvio" and related marks belong to their respective owners. This fork
+  does not claim affiliation with Nuvio Media. User-facing branding uses
+  frameX name and artwork only.
