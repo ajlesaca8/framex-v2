@@ -32,13 +32,13 @@ import com.framextv.v2.R
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.ViewModel
 import androidx.tv.material3.Border
-import androidx.tv.material3.Card
+import com.framextv.v2.ui.tv.Card
 import androidx.tv.material3.CardDefaults
 import androidx.tv.material3.ClickableSurfaceDefaults
 import androidx.tv.material3.ExperimentalTvMaterial3Api
 import androidx.tv.material3.Icon
 import androidx.tv.material3.MaterialTheme
-import androidx.tv.material3.Surface
+import com.framextv.v2.ui.tv.Surface
 import androidx.tv.material3.Text
 import com.framextv.v2.data.local.ExperienceModeDataStore
 import com.framextv.v2.data.local.LayoutPreferenceDataStore

@@ -48,6 +48,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
+import com.framextv.v2.ui.util.tvTouchClick
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.tv.material3.ExperimentalTvMaterial3Api
 import androidx.tv.material3.MaterialTheme
@@ -219,6 +220,7 @@ private fun ServerRow(
                 shape = shape,
             )
             .focusable(enabled)
+            .then(if (enabled) Modifier.tvTouchClick(onClick) else Modifier)
             .padding(horizontal = 14.dp, vertical = 12.dp),
     ) {
         androidx.compose.foundation.layout.Column(Modifier.fillMaxWidth()) {
